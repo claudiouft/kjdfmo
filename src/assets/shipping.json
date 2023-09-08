@@ -10,5 +10,13 @@
   {
     "type": "Postal",
     "price": 2.99
+  },
+  {
+    "type": "Jegue",
+    "price": 300
+  },
+  {
+    "type": "Bicicleta",
+    "price": 1.99
   }
 ]

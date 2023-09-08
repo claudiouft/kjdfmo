@@ -4,4 +4,9 @@
   <h3>{{ produto.name }}</h3>
   <h4>{{ produto.price | currency: 'BRL' }}</h4>
   <p>{{ produto.description }}</p>
+  <button type="button" (click)="addToCart(produto)">Buy Now</button>
 </div>
+
+<p>
+  <button type="button" [routerLink]="['/']">Voltar 2</button>
+</p>
